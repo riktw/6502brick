@@ -7,7 +7,7 @@ Like Ben Eater's amazing video's, a button is available for single stepping.
 
 The memory map and interrupts are controlled via GALs for flexibility
 
-More information can be read here:  https://justanotherelectronicsblog.com/wp-admin/post.php?post=802
+More information can be read here:  https://justanotherelectronicsblog.com/?p=802
 
 # Memory map:
 
