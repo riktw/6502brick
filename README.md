@@ -12,7 +12,11 @@ More information can be read here:  https://justanotherelectronicsblog.com/wp-ad
 # Memory map:
 
 0x0000 - 0x7FFF		RAM
+
 0x8000 - 0x9FFF		External peripherals
+
 0xA000 - 0xAFFF		MC6850 ACIA for UART
+
 0xB000 - 0xBFFF		65C22 VIA for GPIO + Timers
+
 0xC000 - 0xFFFF		ROM
