@@ -1,0 +1,19 @@
+GAL16V8                ; this is the second example
+Exa.2
+
+CLK  RW  IRQ1  IRQ2  NC  NC  NC  NC CS1 GND
+NC NC NC NC NC IRQ CDIV WR RD VCC
+
+
+CDIV = CLK
+
+/RD = RW * CS1
+
+IRQ = IRQ2
+
+
+/WR = /RW * CS1
+
+
+DESCRIPTION
+

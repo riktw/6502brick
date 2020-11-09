@@ -1,0 +1,23 @@
+GAL16V8                ; this is the second example
+Exa.2
+
+NC  A8  A9  A10  A11  A12  A13  A14 A15 GND
+NC CS8 CS7 CS6 IO UART ROM RAM NC VCC
+
+
+RAM = A15
+
+/ROM = A14 * A15
+
+UART = /A12 * A13 * /A14 * A15
+
+IO = A12 * A13 * /A14 * A15
+
+CS6 = A10 */A12 * /A13 * /A14 * A15
+
+CS7 = A9 * /A12 * /A13 * /A14 * A15
+
+CS8 = A8 * /A12 * /A13 * /A14 * A15
+
+DESCRIPTION
+

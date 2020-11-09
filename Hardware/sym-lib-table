@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 6502Brick-rescue)(type Legacy)(uri ${KIPRJMOD}/6502Brick-rescue.lib)(options "")(descr ""))
+)
